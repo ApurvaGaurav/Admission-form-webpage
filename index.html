@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMISSION FORM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            ADMISSION FORM(CLASS XI)
+        </header>
+        <div class="formbox">
+            <form action="noaction.php">
+                <div class="name">
+                    <span>NAME</span>
+                    <label for="name">
+                        <input type="text" placeholder="Enter Name" name="nameinput" id="name">
+                    </label>
+                    <div class="file">
+                        <span> Upload students photo</span><input type="file" id="file">
+                    </div>
+                </div>
+
+                <div class="F_name">
+                    <p>FATHER'S NAME</p>
+                    <label for="fname">
+                        <input type="text" placeholder="Enter Your Fathers name" name="fnameinput" id="fname">
+                    </label>
+                </div>
+                <div class="category">
+                    <span>Category</span>
+                    <label for="category">
+                        <input type="radio" name="catinput" id="category">GEN
+                        <input type="radio" name="catinput" id="category">OBC
+                        <input type="radio" name="catinput" id="category">SC/ST
+                    </label>
+                </div>
+
+                <div class="email">
+                    <p>E-MAIL ADDRESS</p>
+                    <label for="email">
+                        <input type="email" placeholder="Enter Valid Email-ID" name="emailinput" id="email">
+                    </label>
+                    <span>PHONE</span>
+                    <label for="email">
+                        <input type="number" placeholder="Enter Phone number" name="emailinput" id="email">
+                    </label>
+                </div>
+                <div class="bloodgroup">
+                    <p>Blood Group</p>
+                    <label for="bgroup">
+                        <input type="text" placeholder="Your Blood Group" name="bloodinput" id="bgroup" maxlength="3">
+                    </label>
+                </div>
+                <div class="dob">
+                    <p>DATE OF BIRTH</p>
+                    <label for="dob">
+                        <input type="date" name="dobinput" id="dob">
+                    </label>
+
+                </div>
+                <div class="stream">
+                    <P>Which stream</P>
+                    <select name="stream" id="stream">
+                        <optgroup label="SCIENCE"></optgroup>
+                        <option value="pcm">PCM</option>
+                        <option value="pcb">PCB</option>
+                        <option value="pcmb">PCM+Bio</option>
+
+                        <optgroup label="COMMERCE"></optgroup>
+                        <option value="com+maths">Commerce with maths/applied maths</option>
+                        <option value="commerce">Commerce with Electives(Other than maths)</option>
+
+                        <optgroup label="HUMANITIES"></optgroup>
+                        <option value="humanities with electives"> Humanities with Elective (Psychology/Phy.
+                            Edn/Painting/ I.P)</option>
+                        <option value="humanities with maths">Humanities with Maths</option>
+
+                    </select>
+                </div>
+                <div class="school">
+                    <span>Previous School:</span>
+                    <label for="school">
+                        <input type="text" placeholder="Previous School Name" name="schoolnameinput" id="school">
+                    </label>
+                </div>
+
+                <div class="income">
+                    <span>Parents total annual income (in RS.)</span>
+                    <label for="income">
+                        <input type="number" name="incomeinput" id="income">
+                    </label>
+                </div>
+                <div class="address">
+                    <span class="textareaheading">FULL ADDRESS:</span>
+                    <textarea name="addressinput" cols="50" rows="5"></textarea>
+                </div>
+                <div class="queries">
+                    <span class="textareaheading">Any Queries regarding addmission ?</span>
+                    <textarea name="queriesinput" cols="50" rows="5"></textarea>
+                </div>
+
+                <div id="buttonbox">
+                    <button value="submit">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

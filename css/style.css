@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* background-color:white; */
+    height: 170vh;
+    width: 98vw;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: 4px solid rgb(255, 0, 0); */
+    background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-back-to-school-background-and-pencils-picture-image_1207868.jpg);
+    background-size: 100vw 170vh;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+header {
+    background-color: yellow;
+    height: 4rem;
+    display: flex;
+    width: 40vw;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+    font-size: 2.5rem;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.formbox {
+    height: 150vh;
+    width: 50vw;
+    background-color: rgb(227, 236, 245);
+    align-self: center;
+    display: flex;
+    position: relative;
+    top: 4rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div {
+    border: 1px solid black;
+    margin: 8px 5px;
+    padding: 3px 5px;
+}
+
+p {
+    padding: 5px 5px;
+    font-size: 1.3rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+span {
+    padding: 5px 5px;
+    font-size: 1.3rem;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+input {
+    width: 20vw;
+    height: 3vh;
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#category {
+    margin: 0;
+    padding: 0;
+    width: 2rem;
+    height: 2vh;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: yellow;
+    color: black;
+}
+
+button:hover {
+    background-color: rgb(213, 216, 7);
+    cursor: pointer;
+}
+
+#buttonbox {
+    display: flex;
+    justify-content: center;
+    border: 0;
+}
+
+.textareaheading {
+    position: relative;
+    bottom: 3rem;
+}
+
+.file {
+    border: 0;
+}
+
+.address,
+.queries {
+    border: 0;
+}
+
+select {
+    height: 1.5rem;
+    margin: 5px 5px;
+}
